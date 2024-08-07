@@ -1,0 +1,141 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  background-color: #020119;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #adc9ff;
+  font-family: "Segoe UI", sans-serif;
+  padding: 20px;
+}
+
+#title {
+  color: #adc9ff;
+  font-family: "Segoe UI", sans-serif;
+  padding: 20px;
+  font-size: 65px;
+}
+
+h2 {
+  color: white;
+  padding: 8px;
+  margin: 15px;
+}
+
+p {
+  color: white;
+  font-size: 1 em;
+  padding: 8px;
+  margin: 15px;
+  font-size: 16px;
+}
+
+#fact {
+  color: white;
+  padding: 8px;
+  margin: 10px;
+}
+
+#action {
+  list-style-type:circle;
+  color: white;
+  overflow: hidden;
+  padding: 5px;
+  list-style-position: inside;
+  line-height: 1.5;
+  font-size:16px;
+  margin-top:5px;
+}
+/* STYLE IMAGES */
+.homeImage {
+  width: 300px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+img {
+  border: 8px solid  #f5515199;
+}
+/* STYLE NAV BAR */
+
+nav {
+  list-style-type: none;
+  background-color:  #f5515199;
+  overflow: hidden;
+  padding: 1em; 
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  font-size: 1.5 em;
+  padding: 1em;
+  font-family: "Segoe UI", sans-serif;
+}
+
+li a:hover {
+  background-color: black;
+}
+
+a {
+  color: white;
+}
+/* STYLE BUTTONS */
+#myButton {
+  background-color:#adc9ff;
+  margin: 5px;
+  padding: 10px;
+  font-family: "Segoe UI", sans-serif;
+  border: none;
+}
+
+#myButton:hover {
+  background-color: #020119;
+  color: white;
+}
+/* ADD MORE! */
+.flexboxContainer {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+}
+
+.flexItem {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flexboxContainer {
+    flex-direction: column;
+  }
+  }
+
+#factGen {
+  background-color: #f5515199; 
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-left: 30%;
+  margin-right: 30%;
+  line-height: 1.5;
+  color:white;
+}
